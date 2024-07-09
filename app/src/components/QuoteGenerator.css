@@ -1,0 +1,64 @@
+.center-container {
+  display: table;
+  width: 450px;
+  background-color: #fff;
+  border-radius: 3px;
+  position: relative;
+  padding: 40px 50px;
+}
+
+.tweet-button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  justify-self: end;
+  text-decoration: none;
+  float: left;
+}
+
+.next-quote-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  justify-self: end;
+  text-decoration: none;
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+
+.quote-text{
+  font-size: 24px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.quote-author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+  color: #333;
+}
