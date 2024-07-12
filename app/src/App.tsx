@@ -1,4 +1,3 @@
-import React from "react";
 import QuoteGenerator from "./components/QuoteGenerator";
 import "./App.css";
 
