@@ -3,9 +3,10 @@
   "private": false,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://anasmhaish.github.io/quote-generator",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=./",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
