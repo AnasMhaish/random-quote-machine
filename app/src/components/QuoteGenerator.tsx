@@ -46,7 +46,11 @@ const QuoteGenerator: React.FC<IProps> = (props) => {
       >
         Tweet Quote
       </a>
-      <button id="new-quote" className="next-quote-button" onClick={getRandomQuote}>
+      <button
+        id="new-quote"
+        className="next-quote-button"
+        onClick={getRandomQuote}
+      >
         Next Quote
       </button>
     </div>

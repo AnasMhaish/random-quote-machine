@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://anasmhaish.github.io/quote-generator",
+  "homepage": "https://anasmhaish.github.io/random-quote-machine/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build --base=./",
